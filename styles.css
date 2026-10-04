@@ -125,7 +125,17 @@ body {
   object-fit: contain;
   height: 200px;
 }
+.img-col-jig {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.img-col-jig img {
+  object-fit: contain;
+  height: 200px;
+}
 /* Three-column section for What / How / Why */
 .project-columns {
   display: grid;
