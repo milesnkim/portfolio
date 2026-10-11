@@ -125,16 +125,19 @@ body {
   object-fit: contain;
   height: 200px;
 }
+
 .img-col-jig {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    flex: 1;
+    min-width: 0;
+    text-align: center;
 }
 
 .img-col-jig img {
-  object-fit: contain;
-  height: 200px;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 /* Three-column section for What / How / Why */
 .project-columns {
