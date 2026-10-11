@@ -127,7 +127,6 @@ body {
 }
 
 
-```css
 .img-col-jig {
   display: flex;
   flex-direction: column;
@@ -139,11 +138,10 @@ body {
 
 .img-col-jig img {
   width: 100%;
-  max-width: 200px;
-  height: 120px;
+  max-width: 400px;
+  height: 200px;
   object-fit: contain;
 }
-```
 
 
 
