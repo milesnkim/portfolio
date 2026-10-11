@@ -127,28 +127,26 @@ body {
 }
 
 
+```css
 .img-col-jig {
-    flex: 1;
-    min-width: 0;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  flex: 1;
 }
 
 .img-col-jig img {
-    width: 100%;
-    max-width: 300px;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
+  width: 100%;
+  max-width: 200px;
+  height: 120px;
+  object-fit: contain;
 }
+```
 
-.jig-caption {
-    text-align: center;
-    margin: 8px 0 0;
-    width: 100%;
-}
+
+
 /* Three-column section for What / How / Why */
 .project-columns {
   display: grid;
